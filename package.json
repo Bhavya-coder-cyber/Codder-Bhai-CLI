@@ -1,0 +1,27 @@
+{
+  "name": "coder-cli-tool",
+  "version": "1.0.0",
+  "main": "agent.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.12.1",
+    "chalk": "^5.6.2",
+    "chalk-animation": "^2.0.3",
+    "dotenv": "^17.2.2",
+    "figlet": "^1.9.1",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^12.9.4",
+    "nanospinner": "^1.2.2",
+    "openai": "^5.20.2",
+    "puppeteer": "^24.20.0",
+    "website-scraper": "^5.3.1",
+    "website-scraper-puppeteer": "^1.1.0"
+  }
+}
