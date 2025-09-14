@@ -11,6 +11,7 @@ import chalkAnimation from "chalk-animation";
 import figlet from "figlet";
 import { createSpinner } from "nanospinner";
 
+console.log("Hello from Buddy CLI");
 // Tool Functions
 const sleep = (ms = 2000) => new Promise((r) => setTimeout(r, ms));
 export async function getWeatherDetailsByCity(cityname = '') {
